@@ -1,6 +1,6 @@
 # ProphageTrack
 
-**Identify shared prophage sequences and genes, and assess prophage persistence, candidate gain and candidate loss within human-associated bacterial strains.**
+Identify shared prophage sequences and genes, and assess prophage persistence, candidate gain and candidate loss within human-associated bacterial strains.
 
 ## What it does
 
