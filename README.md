@@ -2,8 +2,6 @@
 
 **Identify shared prophage sequences and genes, and assess prophage persistence, candidate gain and candidate loss within human-associated bacterial strains.**
 
-Version 0.1.0 is a **research preview**. The comparative and tracking code is functional and tested with synthetic cases. PhiSpy, PhageBoost and VIBRANT adapters are provided, but their live execution and biological accuracy have not yet been validated for this release. No default caller pair has been benchmark-selected. geNomad is not used.
-
 ## What it does
 
 - Imports prophage coordinates from PhiSpy, PhageBoost, VIBRANT or a normalized TSV.
