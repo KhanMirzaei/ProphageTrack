@@ -1,0 +1,5 @@
+include LICENSE CITATION.cff README.md
+recursive-include docs *.md
+recursive-include examples *.tsv *.fna *.faa *.txt
+recursive-include workflow Snakefile *.yaml
+recursive-include tests *.py

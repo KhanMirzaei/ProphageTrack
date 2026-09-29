@@ -1,0 +1,6 @@
+sample_id	assembly	subject_id	strain_id	date	lineage_evidence
+A0	A0.fna	person1	strainA	2025-01-01	synthetic_known_lineage
+A1	A1.fna	person1	strainA	2025-02-01	synthetic_known_lineage
+A2	A2.fna	person1	strainA	2025-03-01	synthetic_known_lineage
+A3	A3.fna	person1	strainA	2025-04-01	synthetic_known_lineage
+B0	B0.fna	person2	strainB	2025-01-01	synthetic_known_lineage

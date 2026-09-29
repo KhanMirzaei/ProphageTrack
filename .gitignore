@@ -1,0 +1,39 @@
+# Python environments, build products and test caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Workflow state, local inputs and generated outputs
+.snakemake/
+results/
+caller-results/
+/work/
+/outputs/
+/data/
+/databases/
+/assemblies/
+/reads/
+/samples.tsv
+/calls.tsv
+**/report.html
+*.log
+*.whl
+*.tar.gz
+*.zip
+
+# Local settings and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/

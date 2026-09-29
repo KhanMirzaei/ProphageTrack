@@ -1,0 +1,21 @@
+# Run from the repository root. Caller outputs are explicit inputs.
+configfile: "workflow/config.yaml"
+
+rule all:
+    input:
+        config["out"] + "/COMPLETE"
+
+rule analyze:
+    input:
+        samples=config["samples"],
+        calls=config["calls"]
+    output:
+        complete=config["out"] + "/COMPLETE"
+    params:
+        out=config["out"],
+        related=config.get("related", "mmseqs"),
+        gene_mode=config.get("gene_mode", "mmseqs")
+    threads: config.get("threads", 2)
+    shell:
+        "prophagetrack run --samples {input.samples:q} --calls {input.calls:q} "
+        "--out {params.out:q} --threads {threads} --related {params.related:q} --gene-mode {params.gene_mode:q}"

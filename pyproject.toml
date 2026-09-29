@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prophagetrack"
+version = "0.1.0"
+description = "Comparative prophage sharing and conservative longitudinal tracking"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Mohammadali Khan Mirzaei"}]
+dependencies = ["biopython>=1.83,<2"]
+
+[project.optional-dependencies]
+genes = ["pyrodigal>=3.5,<4"]
+workflow = ["snakemake>=8,<10"]
+
+[project.scripts]
+prophagetrack = "prophagetrack.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["prophagetrack*"]

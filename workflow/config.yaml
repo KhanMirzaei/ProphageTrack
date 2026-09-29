@@ -1,0 +1,7 @@
+samples: samples.tsv
+calls:
+  - calls.tsv
+out: results/prophagetrack
+threads: 2
+related: mmseqs
+gene_mode: mmseqs

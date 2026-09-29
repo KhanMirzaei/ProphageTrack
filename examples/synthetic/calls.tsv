@@ -1,0 +1,7 @@
+sample_id	contig	start	end	caller	call_id
+A0	chromosome	1201	2700	phispy	synthetic1
+A0	chromosome	1201	2700	phageboost	synthetic1
+A1	chromosome	1201	2700	phispy	synthetic1
+A1	chromosome	1201	2700	phageboost	synthetic1
+B0	chromosome	1201	2700	phispy	synthetic1
+B0	chromosome	1201	2700	phageboost	synthetic1

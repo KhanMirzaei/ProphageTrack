@@ -1,0 +1,1 @@
+Entirely synthetic sequences, proteins, strain labels and caller predictions. A3 intentionally has no caller prediction. Expected: persistence A0->A1, loss A1->A2, gain A2->A3; related B0 shares three of four genes. This tests software logic, not caller accuracy.

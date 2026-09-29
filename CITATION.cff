@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite ProphageTrack and the upstream tools used in your analysis."
+title: "ProphageTrack: comparative prophage sharing and longitudinal tracking"
+type: software
+version: 0.1.0
+date-released: 2026-09-29
+authors:
+  - family-names: Khan Mirzaei
+    given-names: Mohammadali
+    orcid: https://orcid.org/0000-0003-2801-4474
+license: MIT
